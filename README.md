@@ -1,26 +1,51 @@
 # PKSJ-Tugas1
+
+
 Tugas 1 PKSJ - Ganjil 2016/2017
+
 Pendahuluan
-Tugas 1 adalahtugaspertama yang harus di selesaikansebagaisalahsatusyaratpenilaianpadamatakuliahPerancanganKeamanan&SistemJaringan (PKSJ) Semester Ganjil 2016/2017, TeknikInformatika ITS, Surabaya
+
+
+Tugas 1 adalah tugas pertama yang harus di selesaikan sebagai salah satu syarat penilaian pada matakuliah Perancangan Keamanan & Sistem Jaringan (PKSJ) Semester Ganjil 2016/2017, TeknikInformatika ITS, Surabaya
+
+
 AnggotaKelompok
+
 •	Dewi Kartika 	5113100008
+
 •	M.Sholaudin	5112100075
+
 •	FauzanAdim	5113100101
+
 Penjelasan
+
 Ujipenetrasi1 :
+
+
 •	Instalsebuah virtual OS dengan Ubuntu server
+
 •	Instal SSH server dengankonfigurasi default
+
 •	Instalsatulagi virtual OS dengan OS bebas, misalnya Kali Linux atau Ubuntu Desktop
+
 •	Pastikan tools untuk SSH brute force attack sudahterinstal
+
 •	Lakukanujipenetrasi 1: dengan THC-Hydra atauNcrackdancatathasilujipenetrasi
+
+
 Ujipenetrasi 2:
+
 •	Instal fail2ban pada Ubuntu server yang telahdiinstal SSH servernya
+
 •	Konfigurasilah SSH server agar tidak default lagi
-•	Lakukanujipenetrasi 2 dengan tools yang samadancatathasilnya
+
+•	Lakukan uji penetrasi 2 dengan tools yang sama dancatat hasilnya
+
 DasarTeori
+
 1. OS yang digunakan
-•	Ubuntu Serveradalahsalahsatuvariandaridistrolinux Ubuntu. Dalampembahasan kali inidanpembahasanselanjutnya, sayaakanmembahastentangperintah CLI di Linux  danseting server menggunakanubuntu 12.10. Namunsebelummembahaslebihjauhtentang Ubuntu server akansayakenalkanduluapaituubuntu server dalam format FAQ sehinggalebihmudah di pahami.
-•	Kali LinuxadalahdistribusiberlandasandistribusiDebian GNU/Linuxuntuktujuanforensik digital dan di gunakanuntukpengujianpenetrasi, yang dipeliharadandidanaioleh Offensive Security. Kalijugadikembangkanoleh Offensive Security sebagaipenerusBackTrackLinux. Salah satudistribusi Linux tingkatlanjutuntukPenetration Testingdan audit keamanan. Distroinidulunyaadalahdistro Backtrack, yang kemudianmemutuskanmenggantinamadistronyatersebutmenjadi Kali Linux di versiterbarunya. Kali Linux iniakandijadikansebagaistandarisasidistro Linux yang digunakanuntukpercobaanpenetrasi.
+•	Ubuntu Server adalah salah satu varian dari distro linux Ubuntu. Dalam pembahasan kali ini dan pembahasan selanjutnya, saya akan membahas tentang perintah CLI di Linux  dan seting server menggunakan ubuntu 12.10. Namun sebelum membahas lebih jauh tentang Ubuntu server akan saya kenalkan dulu apa itu ubuntu server dalam format FAQ sehingga lebih mudah di pahami.
+•	Kali Linux adalah distribusi berlandasan distribusi Debian GNU/Linux untuktujuanforensik digital dan di gunakanuntukpengujianpenetrasi, yang dipeliharadandidanaioleh Offensive Security. Kalijugadikembangkanoleh Offensive Security sebagaipenerusBackTrackLinux. Salah satudistribusi Linux tingkatlanjutuntukPenetration Testingdan audit keamanan. Distroinidulunyaadalahdistro Backtrack, yang kemudianmemutuskanmenggantinamadistronyatersebutmenjadi Kali Linux di versiterbarunya. Kali Linux iniakandijadikansebagaistandarisasidistro Linux yang digunakanuntukpercobaanpenetrasi.
 
 2. Tools yang digunakan
 •	Hydraadalahsebuah software yang dikembangkanolehsebuahorganisasibernama"The Hacker's Choice" (THC) yang menggunakan brute force dan dictionary attack untukmenguji  password yang lemahatau password sederhana. Iadirancangsebagaibuktiuntukmenunjukkankemudahan cracking password karena password yang dipilihburuk. Proyekinimendukungberbagailayanandanprotokol: AFP, TELNET, FTP, HTTP, HTTPS, SMB, MS-SQL, MySQL, REXEC, RSH, rlogin, CVS, SNMP, SOCKS5, VNC, POP3, IMAP, NNTP, NCP, PCNFS, ICQ, Cisco dan lain-lain.
