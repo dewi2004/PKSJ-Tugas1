@@ -54,13 +54,13 @@ DasarTeori
 2. Tools yang digunakan
 
 
-•	Hydraadalahsebuah software yang dikembangkanolehsebuahorganisasibernama"The Hacker's Choice" (THC) yang menggunakan brute force dan dictionary attack untukmenguji  password yang lemahatau password sederhana. Iadirancangsebagaibuktiuntukmenunjukkankemudahan cracking password karena password yang dipilihburuk. Proyekinimendukungberbagailayanandanprotokol: AFP, TELNET, FTP, HTTP, HTTPS, SMB, MS-SQL, MySQL, REXEC, RSH, rlogin, CVS, SNMP, SOCKS5, VNC, POP3, IMAP, NNTP, NCP, PCNFS, ICQ, Cisco dan lain-lain.
+•	Hydraadalahsebuah software yang dikembangkan oleh sebuah organisasi bernama "The Hacker's Choice" (THC) yang menggunakan brute force dan dictionary attack untuk menguji  password yang lemahatau password sederhana. Ia di rancang sebagai bukti untuk menunjukkan kemudahan cracking password karena password yang dipilihburuk. Proyek ini mendukung berbagai layanan dan protokol: AFP, TELNET, FTP, HTTP, HTTPS, SMB, MS-SQL, MySQL, REXEC, RSH, rlogin, CVS, SNMP, SOCKS5, VNC, POP3, IMAP, NNTP, NCP, PCNFS, ICQ, Cisco dan lain-lain.
 
 
-•	Patatoradalahtool mutigunauntukmelakukan brute force yang ditulismenggunakanbahasa python, dengandesain yang modular danpenggunaan yang fleksibel. Disebutmultiguna, karenasudahterdapatberagammodulobjekuntukmelakukan brute force. Selainitu, dapat di modifikasidanditulisulangsesuailingkungan yang digunakan. Patatormenggunakanlisensi GPLv2.
+•	Patator adalah tool multiguna untuk melakukan brute force yang ditulis menggunakan bahasa python, dengan desain yang modular danpenggunaan yang fleksibel. Disebutmultiguna, karena sudah terdapat beragam modul objek untuk melakukan brute force. Selain itu, dapat di modifikasi dan ditulis ulang sesuai lingkungan yang digunakan. Patator menggunakan lisensi GPLv2.
 
 
-•	Fail2Banadalahsalahsatu software open source sebagai intrusion prevention sistem yang dikembangkanmenggunakanbahasapemprogramam python. Fail2ban digunakanuntukmelakukan monitoring terhadapa log sistemseperti /var/logl/pwdfail, /var/log/auth.log, /var/logl/secure, danlainnya. Fail2ban bisajugadigunakanuntukmencegah IP Address tertentu yang digunakanuntukaksesmasukkesistermsetelahbeberapa kali percobaanmenggunakan password yang keliru, halinikarena fail2ban menggunakaniptablesuntukmelakukan banned terhadapkegagalanakses. Fail2ban tidakhanyasebataspadaaplikasi SSH sepertiDenyhosts, melainkanterhadapsemuaaplikasi yang menggukananprotokol TCP, sepertiaplikasi SMTP, HTTP, danlainnya.
+•	Fail2Ban adalah salah satu software open source sebagai intrusion prevention sistem yang dikembangkan menggunakan bahasa pemprogramam python. Fail2ban digunakan untuk melakukan monitoring terhadap log sistem seperti /var/logl/pwdfail, /var/log/auth.log, /var/logl/secure, dan lainnya. Fail2ban bisa juga digunakan untuk mencegah IP Address tertentu yang digunakan untuk akses masuk ke sisterm setelah beberapa kali percobaan menggunakan password yang keliru, hal ini karena fail2ban menggunakan iptables untuk melakukan banned terhadap kegagalan akses. Fail2ban tidak hanya sebatas pada aplikasi SSH seperti Denyhosts, melainkan terhadap semua aplikasi yang menggunakan protokol TCP, seperti aplikasi SMTP, HTTP, dan lainnya.
 
 
 3. UJI PENETRASI 1
